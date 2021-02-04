@@ -72,7 +72,20 @@ div#wrap{
 
 
 
+#main div#slideshow{
+    width: 3600px;
+    height: 300px;
+    border: 1px solid #000;
 
+    position: relative;
+    left: 0;
+
+    transition: all 3s;
+}
+
+#main div#slideshow:hover{
+    left: -1200px;
+}
 
 
 

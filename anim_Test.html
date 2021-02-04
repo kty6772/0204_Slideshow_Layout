@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS_애니메이션</title>
+    <style>
+        div#wrap{
+            width: 800px;
+            height: 400px;
+            border: 1px solid #000;
+            margin: 0 auto;
+        }
+
+        div#parent{
+            width: 400px;
+            height: 200px;
+            padding: 20px;
+            border: 1px solid #888;
+            margin: 20px auto;
+            padding-top: 90px;
+            position: relative;
+        }
+
+        div#child_Anim:hover{
+        color: #fff;
+            background-color: darkmagenta;
+            height: 200px;
+            font-size: 60px;
+            left: -40px;
+            border-radius: 100px;
+        }
+
+        div#child_Anim{
+            width: 300px;
+            height: 100px;
+            color: #f80;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 100px;
+            border: 1px solid #08f;
+            background-color: #08f;
+            margin: 0 auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            transition: all 1s;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+
+
+        <h1>CSS_전이방식을 적용한 애니메이션</h1>
+
+
+        <div id="parent">
+            <div id="child_Anim">
+                이동하기
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
